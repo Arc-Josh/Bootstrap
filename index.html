@@ -5,7 +5,46 @@
   <title>My Website</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
-</head>
+
+  <style>
+    body {
+      background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    section {
+      background: rgba(248, 249, 250, 0.8);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      border: 1px solid #dee2e6;
+    }
+    h2 {
+      color: #495057;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+    li img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-right: 15px;
+    }
+  </style>
 
 <body>
 
@@ -28,6 +67,7 @@
     <section class="mt-4 text-start">
       <h2>Favorite Song</h2>
       <p>“Teslas and Rovers” by yeat</p>
+      <img src="https://i.scdn.co/image/ab67616d0000b2732a2ca1ad79dd181c31e08c81" alt="Teslas and Rovers album cover" class="img-fluid" style="max-width: 200px; margin-bottom: 10px;">
       <p><a href="https://www.youtube.com/watch?v=mQXBgFlCvKw&list=RDmQXBgFlCvKw&start_radio=1" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></p>
     </section>
 
@@ -43,10 +83,10 @@
     <section class="mt-4 text-start">
       <h2>Favorite Games</h2>
       <ul>
-        <li>Persona 5 Royal</li>
-        <li>Elden Ring</li>
-        <li>Final Fantasy 7</li>
-        <li>Resident Evil 2</li>
+        <li><img src="https://static.wikia.nocookie.net/megamitensei/images/6/6c/P5R_Key_Art.jpg/revision/latest?cb=20210329153657" alt="Persona 5 Royal"> Persona 5 Royal</li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg" alt="Elden Ring"> Elden Ring</li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/en/c/c2/Final_Fantasy_VII_Box_Art.jpg" alt="Final Fantasy 7"> Final Fantasy 7</li>
+        <li><img src="https://m.media-amazon.com/images/I/71vgPG6gLiL._AC_UF1000,1000_QL80_.jpg" alt="Resident Evil 2"> Resident Evil 2</li>
       </ul>
     </section>
   </div>
